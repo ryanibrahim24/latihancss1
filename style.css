@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande";
+  }
+
+  nav{
+    margin-top: 58px;
+  }
+
+  .container-satu{
+    width: 1140px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #101C45;
+  }
+
+    .logo-nav{
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-logo p {
+    margin-left: 15px;
+  }
+
+  .nav-list{
+    flex-grow: 7;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .nav-list ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: start;
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
+  .blog ,.feature,.about{
+    margin-left: 50px;
+    opacity: 80%;
+  }
+  .home{
+    font-weight:600;
+    color: #101C45;
+  }
+
+  .nav-link{
+    flex-grow:3;
+    display: flex;
+    justify-content: end;
+    font-family: 'DM Sans', sans-serif;
+    color: #101C45;
+  }
+
+  a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+  .btn.login{
+    margin-right: 15px;
+
+  }
+
+  .btn.booked{
+    border: 1px solid black;
+  }
+
+  
