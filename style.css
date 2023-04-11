@@ -19,6 +19,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position:relative;
+    z-index: 4;
+  }
+
+  .container-dua{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+  }
+
+  .container-tiga{
+    width: 1221px;
+    height: 191px;
+    margin: 0 auto;
+    background-color: #203271;
+    display: flex;
   }
 
   .nav-logo{
@@ -70,15 +87,17 @@
   }
 
   a{
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
-    color: black;
     text-decoration: none;
   }
 
+  
+
   .btn {
     padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #101C45;
+    
   }
 
   .btn.login{
@@ -87,7 +106,164 @@
   }
 
   .btn.booked{
-    border: 1px solid black;
+    border: 1px solid #101C45;
   }
 
-  
+  .hero-left{
+    max-width: 455px;
+    margin-top: 151px;
+    margin-bottom: 228px;
+    /* background-color: coral; */
+  }
+
+  .hero-mid{
+    
+  }
+
+  .hero-right{
+    /* background-color: cadetblue; */
+  }
+
+  h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    color: #101C45;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+
+  .hero-left p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: #101C45;
+    margin-bottom: 40px;
+    
+  }
+
+  .btn-hero{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #203271;
+    color: white;
+    padding: 15px 35px;
+  }
+
+  .card{
+    height: 182px;
+    width: 292px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    top:123px;
+    margin-left: 56px;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  .profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .person-profil{
+    display: flex;
+    align-items: center;
+  }
+
+  .foto-profile {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .foto-tip {
+    height: 24px;
+    width: 24px;
+    justify-content: end;
+  }
+
+.quotes {
+    font-size: 12px;
+    font-weight: 400;
+    color: #101C45;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-hero {
+    position:absolute;
+    /* background-color: cadetblue; */
+    bottom: 0px;
+    right:-93px;
+    z-index: 2;
+}
+
+.img-shape {
+    position:absolute;
+    /* background-color: cadetblue; */
+    bottom: 0px;
+    right:-70px;
+    z-index: 1;
+}
+
+.benefit{
+    padding: 40px;
+    display: flex;
+    align-content: start;
+}
+
+.schedule{
+    width: 359px;
+    /* background-color: bisque; */
+    display: flex;
+    align-content: start;
+}
+
+.reminder{
+    width: 359px;
+    /* background-color: bisque; */
+    margin-left: 32px;
+    display: flex;
+    align-content: start;
+}
+
+.virtual{
+    width: 359px;
+    /* background-color: bisque; */
+    margin-left: 32px;
+    display: flex;
+    align-content: start;
+}
+
+.camera,.bell,.calendar {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.benefit h4 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.benefit p {
+    font-size: 16px;
+    font-weight: 40;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    opacity: 80%;
+    margin: 0px;
+    line-height: 26px;
+}
